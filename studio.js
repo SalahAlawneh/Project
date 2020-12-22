@@ -19,10 +19,10 @@ function question(){
     
     
     if (age >= 18 ) {
-      message = 'Welcome to pharmacy website';
+      message = 'Welcome to online gym';
     
     } else {
-      message = 'Please consult your parents';
+      message = 'Please wait until 18';
     }
     
     document.write('<h2>' + message +' Mr ' + name +'</h2>');
